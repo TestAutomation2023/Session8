@@ -121,7 +121,6 @@ public class AppTest
         loginPage.tbPass.sendKeys("1234567");
         loginPage.btnLogin.click();
         Assert.assertEquals("Có lỗi xảy ra:", loginPage.getErrorMessage_PassIsWrong());
-
     }
 
     /*
